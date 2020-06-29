@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="App">
+    <div class="main container">
+        <div class="head">
+            <div class="box"></div>
+            <div ><input id="result" class="inputBox" type="text"></div>
+        </div>
+        <div class="buttons">
+
+               <div>
+                   <button onclick="clear('on')" class="red btn shadow">ON/C</button>
+                   <button onclick="on('clear')"  class="yellow btn shadow" >CE</button>
+               </div>
+               <div>
+                   <button onclick="calculation('7')" class="button btn">7</button>
+                   <button onclick="calculation('8')"  class="button btn">8</button>
+                   <button onclick="calculation('9')"  class="button btn">9</button>
+                   <button onclick="calculation('*')"  class="button btn">x</button>
+                   <button onclick="del('del')"  class="button btn">DEL</button>
+               </div>
+               <div>
+                   <button onclick="calculation('4')" class="button btn">4</button>
+                   <button onclick="calculation('5')" class="button btn">5</button>
+                   <button onclick="calculation('6')" class="button btn">6</button>
+                   <button onclick="calculation('+')" class="button btn">+</button>
+
+                   <button onclick="calculation('/')" class="button btn" ><span>&#247;</span></button>
+               </div>
+               <div>
+                   <button onclick="calculation('1')"  class="button btn" >1</button>
+                   <button onclick="calculation('2')" class="button btn">2</button>
+                   <button onclick="calculation('3')" class="button btn">3</button>
+                   <button onclick="calculation('.')" class="button btn">.</button>
+                   <button onclick="calculation('-')"  class="button btn">-</button>
+               </div>
+
+               <div>
+                   <button onclick="calculation('0')" class="button zero btn">0</button>
+                   <button onclick="results()" class="button equal btn">=</button>
+               </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

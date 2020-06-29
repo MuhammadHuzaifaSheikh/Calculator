@@ -1,0 +1,104 @@
+
+
+@font-face {
+    src: url('DigitalDisplayRegular-ODEO.ttf');
+    font-family: 'calculator';
+}
+
+.App{
+    position: absolute; !important;
+    top: 50%;!important;
+    left: 50%;!important;
+    transform: translate(-50%,-75%);!important;
+    -ms-transform: translate(-50%,-75%);!important;
+    -webkit-transform: translate(-50%,-75%);!important;
+    font-family: sans-serif;
+}
+
+.main{
+    border: 1px solid black; !important;
+    width: 359px;!important;
+    text-align: center;!important;
+    margin: 10px auto;!important;
+    background: #595959;!important;
+    border-radius: 10px ;!important;
+
+
+
+}
+
+
+.box{
+    width: 70px;
+    height: 30px;
+   position: relative;
+    left: 222px;
+    background: #b1b5b2;
+    margin: 5px;
+}
+.head{
+    margin: 10px;
+
+    font-size: 30px;
+}
+
+
+.inputBox{
+    height: 66px;
+    width: 300px;
+    border: 6px solid white;
+    background: #80876C;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    padding: 18px;
+
+}
+
+
+.red{
+    background: red;
+    color: white;
+    width: 146px;!important;
+    font-size: 22px;
+
+
+
+}
+
+.yellow{
+    background: orange;
+    color: white;
+    width: 146px;!important;
+    font-size: 22px;
+
+}
+.button{
+    width: 50px;
+    height: 40px;
+    padding:0 5px;
+    margin: 4px;
+    background: #b1b5b2; !important;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 22px;
+    border-bottom: 3px solid #595959;
+
+}
+
+.button:active{
+    background: #717271;
+    cursor: pointer;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.zero{
+    width: 146px;
+}
+.equal{
+    width: 146px;
+}
+
